@@ -16,5 +16,20 @@
   "bugs": {
     "url": "https://github.com/urosurkespasojevic/AngularJS-and-NodeJS-demo/issues"
   },
-  "homepage": "https://github.com/urosurkespasojevic/AngularJS-and-NodeJS-demo#readme"
+  "homepage": "https://github.com/urosurkespasojevic/AngularJS-and-NodeJS-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0"
+  }
 }

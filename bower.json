@@ -1,0 +1,38 @@
+{
+  "name": "quiz",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "urosurkespasojevic <uros.spasojevic.dev@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/urosurkespasojevic/AngularJS-and-NodeJS-demo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "less/font-awesome",
+        "css/font-awesome.min.css",
+        "scss/font-awesome.scss"
+      ]
+    }
+  }
+}
